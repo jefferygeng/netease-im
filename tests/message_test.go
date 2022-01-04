@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	netease "github.com/MrSong0607/netease-im"
+	netease "github.com/jefferygeng/netease-im"
 )
 
 func TestSendTextMessage(t *testing.T) {

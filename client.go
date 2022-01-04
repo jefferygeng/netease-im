@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-resty/resty"
 	jsoniter "github.com/json-iterator/go"
+	"gopkg.in/resty.v1"
 )
 
 var jsonTool = jsoniter.ConfigCompatibleWithStandardLibrary

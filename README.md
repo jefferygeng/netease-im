@@ -10,11 +10,11 @@ netease-im 是用 GO 语言实现的网易云信的服务端 API 封装，目前
 
 #### 安装:
 
-`go get -u github.com/MrSong0607/netease-im`
+`go get -u github.com/jefferygeng/netease-im`
 
 #### 导入:
 
-`import netease "github.com/MrSong0607/netease-im"`
+`import netease "github.com/jefferygeng/netease-im"`
 
 #### 使用:
 
