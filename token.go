@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/json-iterator/go"
+	jsoniter "github.com/json-iterator/go"
 )
 
 const (
@@ -33,9 +33,6 @@ func (c *ImClient) CreateImUser(u *ImUser) (*TokenInfo, error) {
 
 	if len(u.Name) > 0 {
 		param["name"] = u.Name
-	}
-	if len(u.Propertys) > 0 {
-		param["props"] = u.Propertys
 	}
 	if len(u.IconURL) > 0 {
 		param["icon"] = u.IconURL
