@@ -2,9 +2,6 @@
 
 netease-im 是用 GO 语言实现的网易云信的服务端 API 封装，目前实现了常用的大部分功能，如有其他的需要或者功能失效，可以提 issue 告知
 
-![](https://img.shields.io/badge/language-golang-blue.svg)
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 使用方法
 
